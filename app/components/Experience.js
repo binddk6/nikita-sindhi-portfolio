@@ -21,7 +21,7 @@ const experiences = [
     title: "E-commerce Executive Intern",
     company: "Mishkon",
     location: "Ahmedabad, India",
-    date: "02/2021 - 02/2022",
+    date: "05/2022 - 06/2022",
     description: [
       "Gained hands-on experience managing Amazon Seller and Vendor Central, optimizing advertising campaigns to boost visibility and drive sales.",
       "Conducted keyword research using Helium10 to identify competitive search terms, improving campaign performance and product discoverability.",
@@ -36,8 +36,8 @@ const Experience = () => (
     {experiences.map((exp, index) => (
       <AnimatedContainer key={index}>
         <div>
-          <h3>
-            {exp.title} at {exp.company}
+          <h3 style={{ color: "#f06c05" }}>
+            {exp.title} at <span>{exp.company}</span>
           </h3>
           <p style={{ marginBottom: "10px" }}>
             {exp.date} | {exp.location}

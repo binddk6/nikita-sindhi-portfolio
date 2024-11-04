@@ -8,7 +8,7 @@ import Summary from "./components/Summery";
 
 export default function HomePage() {
   return (
-    <div>
+    <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
       <Header />
       <Summary />
       <Experience />

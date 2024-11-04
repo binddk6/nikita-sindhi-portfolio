@@ -26,7 +26,7 @@ const Education = () => (
       <h2>Education</h2>
       {education.map((edu, index) => (
         <div key={index} style={{ marginBottom: "20px" }}>
-          <h3>{edu.degree}</h3>
+          <h3 style={{ color: "#f06c05" }}>{edu.degree}</h3>
           <p>
             {edu.institution}, {edu.location}
           </p>
