@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
           />
           <meta
             property="og:image"
-            content="https://nikita-sindhi-portfolio.vercel.app/preview-image.jpg"
+            content="https://nikita-sindhi-portfolio.vercel.app/preview-image.webp"
           />
 
           <meta property="twitter:card" content="summary_large_image" />
@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
           />
           <meta
             property="twitter:image"
-            content="https://nikita-sindhi-portfolio.vercel.app/preview-image.jpg"
+            content="https://nikita-sindhi-portfolio.vercel.app/preview-image.webp"
           />
 
           <link
