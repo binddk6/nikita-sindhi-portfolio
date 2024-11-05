@@ -9,11 +9,6 @@ const Header = () => (
       <h1>Nikita Sindhi</h1>
       <p>Business Development Executive</p>
       <div>
-        <a href="tel:+91-8469269979" style={{ textDecoration: "none" }}>
-          📞
-          <span>+91-8469269979</span>
-        </a>
-        <span className="text-gray-300"> | </span>
         <a
           href="mailto:nikitasindhi5499@gmail.com"
           style={{ textDecoration: "none" }}
