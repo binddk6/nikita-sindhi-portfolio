@@ -56,7 +56,10 @@ export default function RootLayout({ children }) {
             property="og:image"
             content="https://nikita-sindhi-portfolio.vercel.app/preview-image.jpg"
           />
-
+          <meta
+            property="og:image"
+            content="https://nikita-sindhi-portfolio.vercel.app/preview-image.webp"
+          />
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:url"
