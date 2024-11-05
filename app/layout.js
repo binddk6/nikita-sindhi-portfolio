@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
             name="title"
             content="Nikita Sindhi - Business Development Executive"
           />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
           <meta
             name="description"
             content="Discover the professional portfolio of Nikita Sindhi, a results-driven Business Development Executive with expertise in client acquisition, lead generation, and strategic sales growth."
